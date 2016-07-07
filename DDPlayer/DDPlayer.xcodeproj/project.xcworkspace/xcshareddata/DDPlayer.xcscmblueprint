@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5DC1F90324D12BEC46166530C77D7DCF69A0E89F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5DC1F90324D12BEC46166530C77D7DCF69A0E89F" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5DC1F90324D12BEC46166530C77D7DCF69A0E89F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3C6F3F18-AF16-4818-93C4-41F3333EFBD9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5DC1F90324D12BEC46166530C77D7DCF69A0E89F" : "ddplayer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DDPlayer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DDPlayer\/DDPlayer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/ddplayer",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DC1F90324D12BEC46166530C77D7DCF69A0E89F"
+    }
+  ]
+}
