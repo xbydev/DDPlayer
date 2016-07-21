@@ -10,6 +10,7 @@
 #import "LocalVideoViewController.h"
 #import "NetVideoViewController.h"
 #import "MoreViewController.h"
+#import "KxMovieViewController.h"
 
 @interface AppDelegate ()
 
@@ -71,6 +72,18 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    
+    NSLog(@"the url is %@",url);
+    if ([url isFileURL])
+    {
+        KxMovieViewController *vc = [KxMovieViewController movieViewControllerWithContentPath:url.path
+                                                                                   parameters:nil];
+        [_homeCtrl presentViewController:vc animated:YES completion:nil];
+    }
+    return YES; 
 }
 
 @end
